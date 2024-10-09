@@ -1,0 +1,8 @@
+__pycache__/
+venv/
+logs/
+db.sqlite3
+.env
+Kaya_data.xlsx
+.vscode
+.pytest_cache
