@@ -19,7 +19,7 @@ To run the server do the followings (assumption: OS is linux/macos):
 
 Detailed details
 
-Python 3.11, Flask 3.0.3 are used. (others u may find in requirements.txt)
+Python 3.11, Flask 3.0.3 are used. (others may found in requirements.txt)
 
 To create tables i used SQLAlchemy, with which I declared tables as classes and then used Flask-Migrate to populate them in the postgres db
 

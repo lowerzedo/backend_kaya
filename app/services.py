@@ -265,7 +265,7 @@ def performance_time_series(**kwargs):
                     400,
                 )
 
-        # Define group_by based on aggregate_by
+        # Define group_by based on aggregate_by | func.date() is for precision at the day level, func.date_trunc() is for broader time ranges like weeks or months.
         if aggregate_by == "day":
             group_by = func.date(AdGroupStats.date)
         elif aggregate_by == "week":
